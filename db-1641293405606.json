@@ -1,0 +1,40 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "test",
+      "password": "1111"
+    },
+    {
+      "id": 2
+    },
+    {
+      "name": "mg mg",
+      "password": "111111111",
+      "image": "111",
+      "id": 3
+    },
+    {
+      "name": "Myo Thu Ko",
+      "email": "myothuko2012@gmail.com",
+      "password": "1111",
+      "id": 4
+    }
+  ],
+  "items": [
+    {
+      "id": 1,
+      "name": "test",
+      "image": "test",
+      "description": "test description",
+      "price": 10000,
+      "color": "red",
+      "size": "S",
+      "weight": "105lbs",
+      "category": "shirt"
+    },
+    {
+      "id": 2
+    }
+  ]
+}
