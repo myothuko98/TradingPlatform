@@ -7,7 +7,7 @@ export const ItemDetailAction = (id) => {
       const res = await axios.get(`${backendUrl}items?id=${id}`);
       const res_1 = res.data;
 
-      if (res_1.length !== 0) {
+      if (res.status === 200) {
         console.log("item", res_1);
         dispatch({
           type: ITEM_DETAIL_SUCCESS,

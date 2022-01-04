@@ -1,5 +1,6 @@
 import axios from "axios";
-import {ADD_ITEM_ERROR, 
+import {
+  ADD_ITEM_ERROR,
   ADD_ITEM,
   ADD_ITEM_SUCCESS,
   backendUrl,
@@ -16,8 +17,8 @@ export const AddItemAction = (data) => {
         },
       });
       const res_1 = res.data;
-
-      if (res_1.length !== 0) {
+      console.log("item", res);
+      if (res.status === 201) {
         console.log("item", res_1);
         dispatch({
           type: ADD_ITEM_SUCCESS,

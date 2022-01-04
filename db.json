@@ -6,9 +6,6 @@
       "password": "1111"
     },
     {
-      "id": 2
-    },
-    {
       "name": "mg mg",
       "password": "111111111",
       "image": "111",
@@ -64,6 +61,24 @@
       "size": "s",
       "category": "shirt",
       "id": 4
+    },
+    {
+      "name": "sdf",
+      "description": "tee",
+      "price": "1000",
+      "color": "red",
+      "size": "s",
+      "category": "shoe",
+      "id": 5
+    },
+    {
+      "name": "test",
+      "description": "te",
+      "price": "1000",
+      "color": "red",
+      "size": "s",
+      "category": "shirt",
+      "id": 6
     }
   ]
 }

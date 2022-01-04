@@ -14,9 +14,7 @@ export const GetItemAction = (cat, searchData) => {
     try {
       const res = await axios.get(`${backendUrl}items?${catUrl}${searchUrl}`);
       const res_1 = res.data;
-
-      if (res_1.length !== 0) {
-        console.log("item", res_1);
+      if (res.status === 200) {
         dispatch({
           type: ITEM_LIST_SUCCESS,
           payload: {
